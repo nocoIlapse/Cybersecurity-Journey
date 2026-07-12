@@ -16,6 +16,32 @@ My personal notes on networking fundamentals, which I'm keeping while studying S
 
 ---
 
+## 🌐 HTTP Methods
+
+HTTP uses **methods** (also called **verbs**) to specify what action the client wants to perform on a resource.
+
+| Method | Description | Example |
+|---------|-------------|---------|
+| `GET` | Retrieve data from the server. | Open a web page or get a list of users. |
+| `POST` | Send data to create a new resource. | Register a new account or submit a form. |
+| `PUT` | Replace an existing resource completely. | Update all information about a user. |
+| `PATCH` | Update part of an existing resource. | Change only a user's password or email. |
+| `DELETE` | Remove a resource from the server. | Delete a user or a file. |
+| `HEAD` | Retrieve only the response headers. | Check if a resource exists without downloading it. |
+| `OPTIONS` | Show which HTTP methods are supported. | Check available API methods. |
+| `CONNECT` | Establish a tunnel to the server (commonly for HTTPS via a proxy). | HTTPS proxy connection. |
+| `TRACE` | Echo the received request for debugging purposes. | HTTP request diagnostics. |
+
+### ⭐ Most Common Methods
+
+* `GET` — Read data.
+* `POST` — Create a new resource.
+* `PUT` — Replace an existing resource.
+* `PATCH` — Partially update a resource.
+* `DELETE` — Remove a resource.
+
+---
+
 ## 🌍 Common Network Ports
 * `20/21` — FTP (File Transfer Protocol)
 * `22` — SSH (Secure Shell)
