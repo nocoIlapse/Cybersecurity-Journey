@@ -68,6 +68,17 @@ HTTP uses **methods** (also called **verbs**) to specify what action the client 
 
 ---
 
+## 🖥️ Virtualization & Infrastructure
+
+* **Virtualization** — technology that allows one physical computer to run multiple independent virtual machines.
+* **Hypervisor** — software that creates, manages, and runs virtual machines.
+* **Virtual Machine (VM)** — a complete virtual computer with its own operating system, running on a host machine.
+* **Container** — a lightweight isolated environment for running applications while sharing the host operating system.
+* **Container Image** — a reusable template containing everything needed to create a container.
+* **Network Port** — a numbered communication endpoint that applications use to send and receive network traffic.
+
+---
+
 ## 🔍 Useful Tools
 * `nmap` — scan hosts and discover open ports.
 * `tcpdump` — capture and analyze network traffic.
