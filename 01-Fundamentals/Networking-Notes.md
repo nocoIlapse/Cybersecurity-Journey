@@ -16,32 +16,6 @@ My personal notes on networking fundamentals, which I'm keeping while studying S
 
 ---
 
-## 🌐 HTTP Methods
-
-HTTP uses **methods** (also called **verbs**) to specify what action the client wants to perform on a resource.
-
-| Method | Description | Example |
-|---------|-------------|---------|
-| `GET` | Retrieve data from the server. | Open a web page or get a list of users. |
-| `POST` | Send data to create a new resource. | Register a new account or submit a form. |
-| `PUT` | Replace an existing resource completely. | Update all information about a user. |
-| `PATCH` | Update part of an existing resource. | Change only a user's password or email. |
-| `DELETE` | Remove a resource from the server. | Delete a user or a file. |
-| `HEAD` | Retrieve only the response headers. | Check if a resource exists without downloading it. |
-| `OPTIONS` | Show which HTTP methods are supported. | Check available API methods. |
-| `CONNECT` | Establish a tunnel to the server (commonly for HTTPS via a proxy). | HTTPS proxy connection. |
-| `TRACE` | Echo the received request for debugging purposes. | HTTP request diagnostics. |
-
-### ⭐ Most Common Methods
-
-* `GET` — Read data.
-* `POST` — Create a new resource.
-* `PUT` — Replace an existing resource.
-* `PATCH` — Partially update a resource.
-* `DELETE` — Remove a resource.
-
----
-
 ## 🌍 Common Network Ports
 * `20/21` — FTP (File Transfer Protocol)
 * `22` — SSH (Secure Shell)
@@ -68,6 +42,24 @@ HTTP uses **methods** (also called **verbs**) to specify what action the client 
 
 ---
 
+## 🌐 HTTP Methods
+
+HTTP uses **methods** (also called **verbs**) to specify what action the client wants to perform on a resource.
+
+| Method | Description | Example |
+|---------|-------------|---------|
+| `GET` | Retrieve data from the server. | Open a web page or get a list of users. |
+| `POST` | Send data to create a new resource. | Register a new account or submit a form. |
+| `PUT` | Replace an existing resource completely. | Update all information about a user. |
+| `PATCH` | Update part of an existing resource. | Change only a user's password or email. |
+| `DELETE` | Remove a resource from the server. | Delete a user or a file. |
+| `HEAD` | Retrieve only the response headers. | Check if a resource exists without downloading it. |
+| `OPTIONS` | Show which HTTP methods are supported. | Check available API methods. |
+| `CONNECT` | Establish a tunnel to the server (commonly for HTTPS via a proxy). | HTTPS proxy connection. |
+| `TRACE` | Echo the received request for debugging purposes. | HTTP request diagnostics. |
+
+---
+
 ## 🖥️ Virtualization & Infrastructure
 
 * **Virtualization** — technology that allows one physical computer to run multiple independent virtual machines.
@@ -76,6 +68,24 @@ HTTP uses **methods** (also called **verbs**) to specify what action the client 
 * **Container** — a lightweight isolated environment for running applications while sharing the host operating system.
 * **Container Image** — a reusable template containing everything needed to create a container.
 * **Network Port** — a numbered communication endpoint that applications use to send and receive network traffic.
+
+---
+
+## ☁️ Cloud Service Models
+
+Cloud computing provides different levels of managed services depending on how much control you need.
+
+| Model | Description | You Manage | Provider Manages |
+|--------|-------------|------------|------------------|
+| **IaaS** (Infrastructure as a Service) | Rent virtual servers, storage, and networking resources. | Operating system, applications, data. | Physical hardware, networking, virtualization. |
+| **PaaS** (Platform as a Service) | Develop and deploy applications without managing servers. | Applications and data. | Infrastructure, operating system, runtime environment. |
+| **SaaS** (Software as a Service) | Use a complete application over the Internet. | Only your data and application settings. | Everything else. |
+
+### 💡 Examples
+
+* **IaaS** — AWS EC2, Microsoft Azure Virtual Machines, Google Compute Engine.
+* **PaaS** — Heroku, Google App Engine, Azure App Service.
+* **SaaS** — Gmail, Zoom, Microsoft 365, Dropbox.
 
 ---
 
