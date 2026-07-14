@@ -71,6 +71,20 @@ HTTP uses **methods** (also called **verbs**) to specify what action the client 
 
 ---
 
+## 💻 Operating System Fundamentals
+
+* **Operating System (OS)** — the core software that manages hardware, applications, files, memory, and all system resources.
+
+* **Kernel Space** — the privileged part of the operating system that has direct access to hardware. It contains the **kernel**, which manages CPU, memory, devices, and system resources.
+
+* **User Space** — the area where user applications run with limited permissions to improve system stability and security.
+
+* **Graphical User Interface (GUI)** — a visual interface that lets users interact with the system through windows, icons, menus, and buttons.
+
+* **Command-Line Interface (CLI)** — a text-based interface where users execute commands directly, offering greater speed, flexibility, and automation than a GUI.
+
+---
+
 ## ☁️ Cloud Computing
 
 ### Cloud Deployment Models
