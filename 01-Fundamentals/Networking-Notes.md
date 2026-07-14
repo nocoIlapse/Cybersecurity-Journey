@@ -71,22 +71,46 @@ HTTP uses **methods** (also called **verbs**) to specify what action the client 
 
 ---
 
-## ☁️ Cloud Service Models
+## ☁️ Cloud Computing
 
-Cloud computing provides different levels of managed services depending on how much control you need.
+### Cloud Deployment Models
+
+| Model | Description |
+|--------|-------------|
+| **Public Cloud** | Cloud services available over the Internet and shared by multiple users and organizations. |
+| **Private Cloud** | A cloud environment dedicated to a single organization, providing greater control and security. |
+| **Hybrid Cloud** | A combination of public and private clouds that can share data and workloads. |
+
+---
+
+### Cloud Service Models
 
 | Model | Description | You Manage | Provider Manages |
 |--------|-------------|------------|------------------|
-| **IaaS** (Infrastructure as a Service) | Rent virtual servers, storage, and networking resources. | Operating system, applications, data. | Physical hardware, networking, virtualization. |
-| **PaaS** (Platform as a Service) | Develop and deploy applications without managing servers. | Applications and data. | Infrastructure, operating system, runtime environment. |
-| **SaaS** (Software as a Service) | Use a complete application over the Internet. | Only your data and application settings. | Everything else. |
+| **IaaS** (Infrastructure as a Service) | Rent virtual servers, storage, and networking resources. | Operating system, applications, and data. | Physical hardware, networking, and virtualization. |
+| **PaaS** (Platform as a Service) | Develop and deploy applications without managing servers. | Applications and data. | Infrastructure, operating system, and runtime environment. |
+| **SaaS** (Software as a Service) | Use a complete application over the Internet. | Your data and application settings. | Everything else. |
 
-### 💡 Examples
+---
+
+### Examples
 
 * **IaaS** — AWS EC2, Microsoft Azure Virtual Machines, Google Compute Engine.
 * **PaaS** — Heroku, Google App Engine, Azure App Service.
 * **SaaS** — Gmail, Zoom, Microsoft 365, Dropbox.
 
+* **EC2 (Elastic Compute Cloud)** — Amazon Web Services (AWS) service that provides scalable virtual machines (instances) in the cloud.
+
+---
+
+### Benefits of Cloud Computing
+
+* 📈 **Scalability** — Easily increase or decrease computing resources as needed.
+* ⚡ **On-demand Self-service** — Provision resources whenever you need them without human interaction.
+* 💰 **Pay-as-you-go** — Pay only for the resources you actually use.
+* 🔒 **Security** — Cloud providers offer built-in security features and compliance tools.
+* ✅ **High Availability** — Services remain available through redundancy and fault tolerance.
+* 🌍 **Global Access** — Access applications and resources from anywhere with an Internet connection.
 ---
 
 ## 🔍 Useful Tools
