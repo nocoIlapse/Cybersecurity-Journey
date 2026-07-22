@@ -39,11 +39,6 @@ Displays the absolute path of the current working directory.
 pwd
 ```
 
-### Example
-
-```bash
-pwd
-```
 
 Output:
 
@@ -78,12 +73,6 @@ ls
 | `-h` | Human-readable file sizes |
 | `-la` | Long listing including hidden files |
 
-### Example
-
-```bash
-ls -la
-```
-
 ---
 
 ## `cd`
@@ -96,12 +85,6 @@ Changes the current working directory.
 
 ```bash
 cd [directory]
-```
-
-### Examples
-
-```bash
-cd Documents
 ```
 
 ```bash
@@ -133,12 +116,6 @@ Displays the contents of a file.
 cat filename.txt
 ```
 
-### Example
-
-```bash
-cat notes.txt
-```
-
 ---
 
 ## `touch`
@@ -161,11 +138,6 @@ touch report.txt
 
 Opens a file in the Nano text editor.
 
-### Example
-
-```bash
-nano notes.txt
-```
 
 Useful shortcuts:
 
@@ -184,11 +156,6 @@ Useful shortcuts:
 
 Copies files or directories.
 
-### Example
-
-```bash
-cp file.txt backup.txt
-```
 
 Copy directories:
 
@@ -204,7 +171,6 @@ cp -r folder backup/
 
 Moves or renames files and directories.
 
-### Example
 
 Rename:
 
@@ -226,7 +192,6 @@ mv report.txt Documents/
 
 Removes files.
 
-### Example
 
 ```bash
 rm file.txt
@@ -248,7 +213,6 @@ rm -r folder
 
 Creates a directory.
 
-### Example
 
 ```bash
 mkdir Projects
@@ -268,7 +232,6 @@ mkdir -p Notes/Linux
 
 Removes an empty directory.
 
-### Example
 
 ```bash
 rmdir OldFolder
